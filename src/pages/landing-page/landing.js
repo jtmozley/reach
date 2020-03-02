@@ -19,7 +19,7 @@ const Landing = () => {
 
             <div className="slideContainer">
               <p>How many hourse of sleep did you get?</p>
-              <input type="range" min="0" max="10" class="slider" />
+              <input type="range" min="0" max="10" class="slider" name='Sleep-Hours' />
               <div className="slideRange">
                 <p>0 hours</p>
                 <p>10 hours</p>
@@ -27,7 +27,7 @@ const Landing = () => {
             </div>
             <div className="slideContainer">
               <p>How would you rate the quality of your sleep?</p>
-              <input type="range" min="0" max="10" class="slider" />
+              <input type="range" min="0" max="10" class="slider" name='Sleep-Quality' />
               <div className="slideRange">
                 <p>0 Worst</p>
                 <p>10 Best</p>
@@ -35,7 +35,7 @@ const Landing = () => {
             </div>
             <div className="slideContainer">
               <p>How would you rate the difficulty of yesterday’s training?</p>
-              <input type="range" min="0" max="10" class="slider" />
+              <input type="range" min="0" max="10" class="slider" name="Yesterday\'s-Training Difficulty" />
               <div className="slideRange">
                 <p>0 RPE</p>
                 <p>10 RPE</p>
@@ -43,7 +43,7 @@ const Landing = () => {
             </div>
             <div className="slideContainer">
               <p>How fueled do you feel for today’s training?</p>
-              <input type="range" min="0" max="10" class="slider" />
+              <input type="range" min="0" max="10" class="slider" name='How fueled for today' />
               <div className="slideRange">
                 <p>0 Not Fueled</p>
                 <p>10 Very Fueled</p>
@@ -51,7 +51,7 @@ const Landing = () => {
             </div>
             <div className="slideContainer">
               <p>How motivated are you for today's training?</p>
-              <input type="range" min="0" max="10" class="slider" />
+              <input type="range" min="0" max="10" class="slider" name='Motivated for today' />
               <div className="slideRange">
                 <p>0 Not Ready</p>
                 <p>10 Very Ready</p>

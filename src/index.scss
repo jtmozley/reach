@@ -29,3 +29,14 @@ code {
 .container {
   width: 80%;
 }
+
+@media screen and (max-width: 425px) {
+.page {
+  padding: 130px 0;
+
+}
+
+  .container {
+    width: 95%;
+  }
+}
