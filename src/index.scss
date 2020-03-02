@@ -24,8 +24,15 @@ code {
   height: 100vh;
   display: flex;
   justify-content: center;
+  padding: 60px 0;
 }
 
 .container {
   width: 80%;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 95%;
+  }
 }

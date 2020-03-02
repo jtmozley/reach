@@ -67,3 +67,8 @@
 .submitIcon:hover {
   transform: perspective(100px) translateZ(12px);
 }
+
+@media screen and (max-width: 425px) {
+  .form {
+  }
+}
