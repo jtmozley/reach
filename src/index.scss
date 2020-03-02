@@ -24,7 +24,6 @@ code {
   height: 100vh;
   display: flex;
   justify-content: center;
-  padding: 60px 0;
 }
 
 .container {
@@ -32,6 +31,11 @@ code {
 }
 
 @media screen and (max-width: 425px) {
+.page {
+  padding: 110px 0;
+
+}
+
   .container {
     width: 95%;
   }
