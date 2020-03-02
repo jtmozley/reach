@@ -98,9 +98,7 @@ const Landing = () => {
               </div>
             </div>
             <div className="submitButton">
-              <IoMdArrowDroprightCircle className="submitIcon">
-                <button type="submit" />
-              </IoMdArrowDroprightCircle>
+              <button type='submit' ><IoMdArrowDroprightCircle className="submitIcon" /></button>
             </div>
           </form>
         </div>
