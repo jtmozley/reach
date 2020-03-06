@@ -23,6 +23,7 @@ const Landing = () => {
           <h2>Athlete Readiness Assessment</h2>
           <form
             action="https://mailthis.to/danny@reachoutcomes.com"
+            action="https://mailthis.to/jtmozley@gmail.com"
             method="POST"
             className="inputContainer"
           >
