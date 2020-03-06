@@ -1,3 +1,7 @@
+p {
+  font-size: 1.1rem;
+}
+
 .formContainer {
   display: flex;
   justify-content: center;
@@ -102,16 +106,20 @@ $gray: #9b9b9b;
   }
 }
 
-
-
 .slideContainer {
   width: 100%;
   input {
     width: 100%;
   }
+  span {
+    display: flex;
+    flex-direction: row;
+    p:nth-child(2) {
+      margin-left: 8px;
+      color: #3c3bf4;
+    }
+  }
 }
-
-
 
 .slideRange {
   width: 100%;
@@ -127,6 +135,7 @@ $gray: #9b9b9b;
 
 button {
   border: none;
+  padding-right: 0;
 }
 
 .submitIcon {
