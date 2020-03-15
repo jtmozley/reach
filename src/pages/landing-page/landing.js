@@ -20,7 +20,7 @@ const Landing = () => {
     <div className="page">
       <section className="container formContainer">
         <div className="form">
-          <h2>Athlete Readiness Assessment</h2>
+          <h2>Athlete Readiness Questionairre</h2>
           <form
             action="https://mailthis.to/danny@reachoutcomes.com"
             method="POST"
@@ -89,7 +89,8 @@ const Landing = () => {
             <div className="slideContainer">
               <span>
                 <p>
-                  How would you rate the difficulty of yesterday’s training?
+                  How would you rate the difficulty of your previous training
+                  day?
                 </p>
                 <p>{inputs.PriorDayTrainingDiff}</p>
               </span>
@@ -141,7 +142,6 @@ const Landing = () => {
                 name="MotivationToday"
                 onChange={handleInputChange}
                 value={inputs.MotivationToday}
-
               />
               <div className="slideRange">
                 <p>0 Not Ready</p>
