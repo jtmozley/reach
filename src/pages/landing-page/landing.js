@@ -20,7 +20,7 @@ const Landing = () => {
     <div className="page">
       <section className="container formContainer">
         <div className="form">
-          <h2>Athlete Readiness Questionairre</h2>
+          <h2>Athlete Readiness Questionnaire</h2>
           <form
             action="https://mailthis.to/danny@reachoutcomes.com"
             method="POST"
